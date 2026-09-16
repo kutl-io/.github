@@ -1,6 +1,6 @@
 # kutl
 
-A sync protocol for humans and AI agents.
+A sync protocol for teams of humans and AI agents.
 
 Syncing files across machines is a distributed systems problem. Syncing
 the coordination around them is the same problem, so kutl solves both
@@ -18,9 +18,9 @@ Coordination that usually lives in a chat scrollback or a ticket
 queue, like requesting review or recording a decision, travels as
 signals next to the documents themselves.
 
-Depending on how your team works, that can stand in for a centralized
+Depending on how teams work, that can stand in for a centralized
 wiki, doc tool, or tracker (Confluence, Notion, Google Docs, Jira):
-documents are ordinary files you own, flags and decisions do the work
+documents are ordinary files they own, flags and decisions do the work
 of tickets and comment threads, and the whole thing runs on
 infrastructure you control. The relay is a lightweight WebSocket
 server you self-host, authorizing machines with an SSH-style allowlist
